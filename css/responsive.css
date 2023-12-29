@@ -1,0 +1,29 @@
+@charset "utf8";
+
+@media screen and (min-height:1080px){
+    section{
+        height: calc(100vh - 166px);
+    }
+
+}
+
+
+@media screen and (max-width:1165px){
+    section #float-left h1{
+        font-size: 50px;
+        line-height:65px;
+    }
+
+    section #float-right #top-image img{
+        width: 60%;
+    }
+    
+    section #float-right #bottom-image img:nth-child(1),
+    section #float-right #bottom-image img:nth-child(3){
+      width:220px;
+    }
+    
+    section #float-right #bottom-image img:nth-child(2){
+        width:190px;
+    }
+}
