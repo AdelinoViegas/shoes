@@ -15,8 +15,18 @@
     src: url('../fonts/Roboto-Bold.ttf');
 }
 
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
 .add-Icon-Bag{
     background-image: url('../assets/icon-search.svg');
+}
+
+.close{
+    display: none;
 }
 
 body{
@@ -32,9 +42,6 @@ ul li a{
     font-size: 22px;
 }
 
-#menu{
-  
-}
 
 nav{
     grid-area: 1/1/1/span 2;
@@ -62,11 +69,18 @@ nav{
     transition: background-image .6s;
 }
 
+section .mobile{
+    display: none;
+}
+
+
+
 section{
+    background-color: black;
     max-width: 1440px;
     height: 920px;
     display: grid;
-    grid-template-columns:auto 64%;
+    grid-template-columns:39% 61%;
     font-family:roboto-bold;
 }
 
@@ -82,6 +96,7 @@ section #float-left h1{
 }
 
 section #float-left p{
+   font-size:20px;
    color:#9c9696;
 }
 
@@ -100,7 +115,7 @@ section #float-right{
 }
 
 section #float-right #top-image img{
-    width: 70%;
+    width: 400px;
 }
 
 section #float-right #bottom-image img:nth-child(1),
@@ -119,10 +134,12 @@ footer{
 }
 
 footer img{
+    background-size: cover;
     cursor:pointer;
 }
 
 footer #footer-list{
+    height: 100%;
     list-style: none;
 }
 
