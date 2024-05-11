@@ -14,12 +14,9 @@ input.onblur = ()=>{
     input.style.paddingLeft = "45px";
 }
 
-
-
 mobile.addEventListener('click',()=>{
     container.classList.toggle('add');
 });
-
 
 btn.addEventListener('click',()=>{
     if(container.getAttribute('class') === 'container-fluid add'){
