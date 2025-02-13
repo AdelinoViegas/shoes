@@ -5,23 +5,23 @@ let menu = document.querySelector('navbar-collapse');
 let btn = document.querySelector('.close');
 
 input.onfocus = () => {
-    input.classList.remove('add-Icon-Bag');
-    input.style.paddingLeft = "15px";
+  input.classList.remove('add-Icon-Bag');
+  input.style.paddingLeft = "15px";
 }
 
 input.onblur = () => {
-    input.classList.add('add-Icon-Bag');
-    input.style.paddingLeft = "45px";
+  input.classList.add('add-Icon-Bag');
+  input.style.paddingLeft = "45px";
 }
 
 mobile.addEventListener('click', () => {
-    container.classList.toggle('add');
+  container.classList.toggle('add');
 });
 
 btn.addEventListener('click', () => {
-    if (container.getAttribute('class') === 'container-fluid add') {
-        container.classList.remove('add');
-    }
+  if (container.getAttribute('class') === 'container-fluid add') {
+    container.classList.remove('add');
+  }
 });
 
 
