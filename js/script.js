@@ -4,15 +4,15 @@ let mobile = document.querySelector('.mobile');
 let menu = document.querySelector('navbar-collapse');
 let btn = document.querySelector('.close');
 
-input.onfocus = () => {
+input.addEventListener('focus',() => {
   input.classList.remove('add-Icon-Bag');
   input.style.paddingLeft = "15px";
-}
+});
 
-input.onblur = () => {
+input.addEventListener('blur',() => {
   input.classList.add('add-Icon-Bag');
   input.style.paddingLeft = "45px";
-}
+});
 
 mobile.addEventListener('click', () => {
   container.classList.toggle('add');
