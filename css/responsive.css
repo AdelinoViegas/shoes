@@ -1,12 +1,12 @@
 @charset "utf8";
 
-@media screen and (min-height:1080px) {
+@media screen and (min-height: 1080px) {
   section {
     height: calc(100vh - 166px);
   }
 }
 
-@media screen and (max-width:1280px) {
+@media screen and (max-width: 1280px) {
   section {
     grid-template-columns: 38% 62%;
   }
@@ -30,7 +30,7 @@
   }
 }
 
-@media screen and (max-width:1210px) {
+@media screen and (max-width: 1210px) {
   ul li a {
     font-size: 18px;
   }
@@ -103,7 +103,7 @@
   }
 }
 
-@media screen and (max-width:1100px) {
+@media screen and (max-width: 1100px) {
   section .navbar .navbar-collapse {
     justify-content: space-evenly !important;
   }
@@ -114,7 +114,7 @@
   }
 }
 
-@media screen and (max-width:920px) {
+@media screen and (max-width: 920px) {
   #icon-Bag {
     display: none;
   }
@@ -254,7 +254,7 @@
   }
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width: 600px) {
   section #float-left h1 {
     font-size: 35px;
   }
@@ -292,7 +292,7 @@
   }
 }
 
-@media screen and (max-width:530px) {
+@media screen and (max-width: 530px) {
   section #float-right #bottom-image {
     width: 100%;
     overflow: auto;
@@ -316,7 +316,7 @@
   }
 }
 
-@media screen and (max-width:420px) {
+@media screen and (max-width: 420px) {
   ul li a {
     font-size: 16px;
   }
@@ -354,7 +354,7 @@
   }
 }
 
-@media screen and (max-width:350px) {
+@media screen and (max-width: 350px) {
   section #float-right #top-image img {
     width: 100%;
   }

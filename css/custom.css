@@ -43,10 +43,10 @@ ul li a {
 }
 
 nav {
-  grid-area: 1/1/1/span 2;
-  height: 80px;
   display: flex;
   justify-content: space-between;
+  grid-area: 1/1/1/span 2;
+  height: 80px;
 }
 
 #logo-main img {
@@ -73,11 +73,11 @@ section .mobile {
 }
 
 section {
+  display: grid;
+  grid-template-columns: 39% 61%;
   background-color: black;
   max-width: 1440px;
   height: 920px;
-  display: grid;
-  grid-template-columns: 39% 61%;
   font-family: roboto-bold;
 }
 
