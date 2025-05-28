@@ -23,11 +23,3 @@ btn.addEventListener('click', () => {
     container.classList.remove('add');
   }
 });
-
-
-
-
-
-
-
-
